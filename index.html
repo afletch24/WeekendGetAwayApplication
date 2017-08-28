@@ -18,11 +18,11 @@
     integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
     crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
-
+<!--css  -->
     <link rel="stylesheet" href="assets/css/style.css">
     
 
-  
+    <!-- <link rel="stylesheet" href="projStyle.css"> -->
 
     <script src="app.js"></script>
 
@@ -36,12 +36,12 @@
           </div>
           <ul class="nav navbar-nav">
             <li><a href="contactus.html">Contact US</a></li>
-            <li><a href="#">About US</a></li>
+            <li><a href="aboutus.html">About US</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
 
-            
             <li><a href="listOfAirCode.html"><span id="glyphIcon" class="glyphicon glyphicon-plane"></span> List of Airport Codes</a></li>
+            <!--changed link from projlistofair.html to listOfAirCode.html -->
 
           </ul>
         </div>
@@ -62,16 +62,16 @@
         <div class="col-xs-4 col-xs-offset-4" id="clickbtn">
                 <form id="formSearch">
                         <div class="form-group">
-                          <label class="searchLabel">Select Weather :  </label> 
-                          <button value="Clear" class="btn btn-sm btn-default clickBtn"><span>Sunny</span></button>
-                          <button value="Rain" class="btn btn-sm btn-default clickBtn"><span>Rain</span></button>
-                          <button value="Snow" class="btn btn-sm btn-default clickBtn"><span>Snowy</span></button>
+                          <label class="searchLabel simpleFont">Select Weather :  </label> 
+                          <button value="Clear" class="btn btn-sm btn-default clickBtn simpleFont icon"><span><img src="assets/image/sun-icon.png" width= "40px" height="40px"></span></button>
+                          <button value="Rain" class="btn btn-sm btn-default clickBtn simpleFont icon"><span><img src="assets/image/rain-icon.png" width= "40px" height="40px"></span></button>
+                          <button value="Snow" class="btn btn-sm btn-default clickBtn simpleFont icon"><span><img src="assets/image/snow-icon.png" width="40px" height="40px"></span></button>
                         </div>
                         <div class="form-group ">
-                          <label class="searchLabel" >Origin Airport Code :</label>
+                          <label class="searchLabel simpleFont" >Origin Airport Code :</label>
                           <input type="text" class="form-control formDiv" id="pwd">
                         </div>
-                        <button id="submit" class="btn btn-default">Search</button>
+                        <button id="submit" class="btn btn-default simpleFont">Search</button>
 
                       </form>
 
