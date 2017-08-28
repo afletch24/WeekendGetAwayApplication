@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Monoton');
+
+body{
+   
+    font-family: 'Monoton', cursive;
+  
+
+    background: url("../image/project1.jpg");
+
+    /* background: url("image/project1.JPG"); */
+
+    background-size: cover;  
+}
+
+.jumbotron{
+   background:transparent;
+   color:white;
+
+
+}
+display-3{padding:0;}
+.lead{padding-right:100px;}
+.clickbtn{
+    text-align: center;
+}
+
+.searchLabel{color: white;}
+.formDiv{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar-brand{
+    font-size: 30px;
+}
+
+<<<<<<< HEAD
+#glyphIcon{margin-right: 10px;}
+© 2017 GitHub, Inc.
+Terms
+Privacy
+Security
+=======
+#glyphIcon{margin-right: 10px;}
+>>>>>>> a656955ecd1130ef892aa570c2cb33b400538aa1
