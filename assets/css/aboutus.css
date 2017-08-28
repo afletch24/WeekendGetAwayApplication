@@ -1,10 +1,10 @@
 body{
-background-image: url("../image/budget.jpg");
+background-image: url("../image/travel.png");
 color: black;
-repeat: no repeat;
-background-size: cover;
+background-repeat: no-repeat;
 font-family: georgia;
-
+background-attachment: fixed;
+background-size: cover;
 
 
 }
