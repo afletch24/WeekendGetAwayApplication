@@ -39,8 +39,6 @@ $(function(){
                 // console.log(dataArr[z]);
                 newPlaceAirArray.push(placeAirCode[placeArray.indexOf(data1.city.name)]);
                
-                
-                
                 }
             }
             
@@ -50,9 +48,7 @@ $(function(){
            console.log(newPlaceAirArray);
            
         //console.log(btnValue);
-       
         });
-        
         }
       event.preventDefault(); 
     }); 
