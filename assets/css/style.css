@@ -32,13 +32,30 @@ display-3{padding:0;}
 .navbar-brand{
     font-size: 30px;
 }
-
-<<<<<<< HEAD
+/* 
 #glyphIcon{margin-right: 10px;}
 © 2017 GitHub, Inc.
 Terms
 Privacy
 Security
-=======
-#glyphIcon{margin-right: 10px;}
->>>>>>> a656955ecd1130ef892aa570c2cb33b400538aa1
+#glyphIcon{margin-right: 10px;}*/
+
+
+@media (max-width: 1600px) {
+
+
+
+
+
+
+
+
+
+
+}
+
+@media (max-width: 1172) {
+
+
+
+}

@@ -1,3 +1,11 @@
-body{}
-
-
+body{
+    background-image: url("../image/airplane.jpg");
+    color: black;
+    background-repeat: no-repeat;
+    font-family: georgia;
+    background-attachment: fixed;
+background-size: cover;
+    font-family: 'Righteous';
+    
+    
+    }
