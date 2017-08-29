@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Monoton');
+
 body{
 background-image: url("../image/travel.png");
 color: black;
@@ -7,5 +9,30 @@ background-attachment: fixed;
 background-size: cover;
 font-family: 'Righteous';
 
+}
 
+#photo{
+    width: 300px;
+    height: 250px;
+    float: right;
+   margin-top: 50px;
+}
+
+#photogroup{
+    width: 100%;
+    height: 100%;
+    border: 4px solid black;
+}
+p{
+    font-size: 18px;
+}
+
+#navWords{
+    font-family: 'Monoton', cursive;
+}
+
+@media screen and (max-width:990px){
+    #photo{
+        float: left;
+    }
 }
