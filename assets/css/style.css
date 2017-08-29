@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Monoton');
-
+@import url("https://fonts.googleapis.com/css?family=Ruda");
 body{
    
     font-family: 'Monoton', cursive;
@@ -22,6 +22,7 @@ display-3{padding:0;}
 .lead{padding-right:100px;}
 .clickbtn{
     text-align: center;
+   
 }
 
 .searchLabel{color: white;}
@@ -32,30 +33,33 @@ display-3{padding:0;}
 .navbar-brand{
     font-size: 30px;
 }
-/* 
 #glyphIcon{margin-right: 10px;}
-© 2017 GitHub, Inc.
-Terms
-Privacy
-Security
-#glyphIcon{margin-right: 10px;}*/
 
+.simpleFont{
+    font-family: 'Ruda', sans-serif;
+    font-size: 20px;
+}
 
-@media (max-width: 1600px) {
-
-
-
-
-
-
-
+.icon{
+    margin: 2px;
 
 
 
 }
 
-@media (max-width: 1172) {
 
 
 
-}
+
+@media screen and (max-width: 640px) {
+    .simpleFont { font-size: 9px;}
+
+    #formSearch { display: flex;
+      
+    color: orange;
+    
+    }
+    
+
+
+
