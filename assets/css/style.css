@@ -6,7 +6,9 @@ body{
   
 
     background: url("../image/project1.jpg");
-
+    background-repeat: no-repeat;
+    background-position: fixed;
+    
     /* background: url("image/project1.JPG"); */
 
     background-size: cover;  
@@ -43,4 +45,25 @@ display-3{padding:0;}
 
 .icon{
     margin: 2px;
+}
+
+@media screen and (max-width:1200px){
+    #formSearch{ width: 370px;}
+    
+}
+
+@media screen and (max-width:650px){
+    #formSearch {float: left;}
+    #clickbtn{
+        margin-left: .1% !important;  
+    }
+    
+    body{background-repeat: no-repeat;}
+}
+
+@media screen and (max-width:400px){
+    #clickbtn  {
+        margin-left: .1% !important;
+    }
+    
 }
