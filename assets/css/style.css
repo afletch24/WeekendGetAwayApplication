@@ -6,12 +6,13 @@ body{
   
 
     background: url("../image/project1.jpg");
-
+    background-repeat: no-repeat;
+    background-position: fixed;
+    
+    
     /* background: url("image/project1.JPG"); */
 
     background-size: cover;  
-    
-
 }
 
 .jumbotron{
@@ -35,6 +36,7 @@ display-3{padding:0;}
 .navbar-brand{
     font-size: 30px;
 }
+
 #glyphIcon{margin-right: 10px;}
 
 .simpleFont{
@@ -44,9 +46,6 @@ display-3{padding:0;}
 
 .icon{
     margin: 2px;
-
-
-
 }
 
 @media screen and (max-width:1200px){
@@ -58,9 +57,9 @@ display-3{padding:0;}
     #formSearch {float: left;}
     #clickbtn{
         margin-left: .1% !important;  
-   }
+    }
     
-   body{background-repeat: no-repeat;}
+    body{background-repeat: no-repeat;}
 }
 
 @media screen and (max-width:400px){
@@ -69,19 +68,3 @@ display-3{padding:0;}
     }
     
 }
-
-/* 
-
-@media screen and (max-width: 640px) {
-    .simpleFont { font-size: 9px;}
-
-    #formSearch { display: flex;
-      
-    color: orange;
-    
-    }
-    body{background-repeat: no-repeat;}
-    
-
-
- */
