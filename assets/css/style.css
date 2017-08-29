@@ -10,6 +10,8 @@ body{
     /* background: url("image/project1.JPG"); */
 
     background-size: cover;  
+    
+
 }
 
 .jumbotron{
@@ -47,9 +49,28 @@ display-3{padding:0;}
 
 }
 
+@media screen and (max-width:1200px){
+    #formSearch{ width: 370px;}
+    
+}
 
+@media screen and (max-width:650px){
+    #formSearch {float: left;}
+    #clickbtn{
+        margin-left: .1% !important;  
+   }
+    
+   body{background-repeat: no-repeat;}
+}
 
+@media screen and (max-width:400px){
+    #clickbtn  {
+        margin-left: .1% !important;
+    }
+    
+}
 
+/* 
 
 @media screen and (max-width: 640px) {
     .simpleFont { font-size: 9px;}
@@ -59,7 +80,8 @@ display-3{padding:0;}
     color: orange;
     
     }
+    body{background-repeat: no-repeat;}
     
 
 
-
+ */
