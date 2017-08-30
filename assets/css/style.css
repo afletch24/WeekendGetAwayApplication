@@ -59,7 +59,8 @@ display-3{padding:0;}
         margin-left: .1% !important;  
     }
     
-    body{background-repeat: no-repeat;}
+    body{background-repeat: no-repeat;
+    background-size: cover;}
 }
 
 @media screen and (max-width:400px){
