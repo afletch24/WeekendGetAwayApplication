@@ -32,6 +32,45 @@ display-3{padding:0;}
 .navbar-brand{
     font-size: 30px;
 }
+.clickGoogle{
+    text-align: center;
+    font-family: 'Ruda', sans-serif;
+    margin-bottom:15px;
+    background-color:whitesmoke;
+    transition-timing-function: ease;
+    transition: border 1s;
+    /* transition: border-bottom 1s;  */
+    transition: box-shadow 1s;
+}
+
+.clickGoogle:hover{
+    /* border-left:8px solid #333; */
+    border:2px solid #333; 
+    box-shadow: 10px 10px 5px grey;
+    cursor: pointer;
+}
+
+.flightResultCss{
+
+    color:black;
+    border:2px solid #333; 
+    font-family: 'Ruda', sans-serif;
+    margin-bottom: 15px;
+}
+#myModal{
+    color:black;
+    font-family: 'Ruda', sans-serif;
+}
+
+.errorDisplay{
+    color:black;
+    font-family: 'Ruda', sans-serif;
+}
+
+#myModal2{
+    color:black;
+    font-family: 'Ruda', sans-serif;
+}
 
 <<<<<<< HEAD
 #glyphIcon{margin-right: 10px;}
