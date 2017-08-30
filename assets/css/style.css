@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Monoton');
-
+@import url("https://fonts.googleapis.com/css?family=Ruda");
 body{
    
     font-family: 'Monoton', cursive;
   
 
     background: url("../image/project1.jpg");
-
+    background-repeat: no-repeat;
+    background-position: fixed;
+    
+    
     /* background: url("image/project1.JPG"); */
 
     background-size: cover;  
@@ -22,6 +25,7 @@ display-3{padding:0;}
 .lead{padding-right:100px;}
 .clickbtn{
     text-align: center;
+   
 }
 
 .searchLabel{color: white;}
@@ -72,12 +76,75 @@ display-3{padding:0;}
     font-family: 'Ruda', sans-serif;
 }
 
-<<<<<<< HEAD
 #glyphIcon{margin-right: 10px;}
-© 2017 GitHub, Inc.
-Terms
-Privacy
-Security
-=======
-#glyphIcon{margin-right: 10px;}
->>>>>>> a656955ecd1130ef892aa570c2cb33b400538aa1
+
+.simpleFont{
+    font-family: 'Ruda', sans-serif;
+    font-size: 20px;
+}
+
+.icon{
+    margin: 2px;
+}
+
+.clickGoogle{
+    text-align: center;
+    font-family: 'Ruda', sans-serif;
+    margin-bottom:15px;
+    background-color:whitesmoke;
+    transition-timing-function: ease;
+    transition: border 1s;
+    /* transition: border-bottom 1s;  */
+    transition: box-shadow 1s;
+}
+
+.clickGoogle:hover{
+    /* border-left:8px solid #333; */
+    border:2px solid #333; 
+    box-shadow: 10px 10px 5px grey;
+    cursor: pointer;
+}
+
+.flightResultCss{
+
+    color:black;
+    border:2px solid #333; 
+    font-family: 'Ruda', sans-serif;
+    margin-bottom: 15px;
+}
+#myModal{
+    color:black;
+    font-family: 'Ruda', sans-serif;
+}
+
+.errorDisplay{
+    color:black;
+    font-family: 'Ruda', sans-serif;
+}
+
+#myModal2{
+    color:black;
+    font-family: 'Ruda', sans-serif;
+}
+
+@media screen and (max-width:1200px){
+    #formSearch{ width: 370px;}
+    
+}
+
+@media screen and (max-width:650px){
+    #formSearch {float: left;}
+    #clickbtn{
+        margin-left: .1% !important;  
+    }
+    
+    body{background-repeat: no-repeat;
+    background-size: cover;}
+}
+
+@media screen and (max-width:400px){
+    #clickbtn  {
+        margin-left: .1% !important;
+    }
+    
+}

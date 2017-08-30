@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Monoton');
+@import url("https://fonts.googleapis.com/css?family=Ruda");
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+
+body{
+    background-image: url("../image/airplane.jpg");
+    color: black;
+    background-repeat: no-repeat;
+    font-family: georgia;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Righteous';
+    
+    
+    }
+h1{ line-height: 55px;
+    padding: 40px;
+    margin-top: 130px;
+    text-align: center;
+    font-family:  'Righteous';
+color:#616161;
+}
+
+
+
+.form-group{
+    padding: 10px;
+    font-family: 'Righteous';
+
+}
+
+
+
+    .form-horizontal {
+        font-family: 
+    }
+
+    #navWords{
+        font-family: 'Monoton', cursive;
+    }
+.form-control{ align-content: center;
+    width: 70%;}
